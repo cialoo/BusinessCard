@@ -1,0 +1,17 @@
+#welcome {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#priceList {
+    font-family: sans-serif;
+}
+
+table, th {
+    border: 1px solid black;
+}
+
+#contact {
+    font-family: sans-serif;
+    text-align: center;
+}
