@@ -12,9 +12,24 @@
     $companyName = "WolffAccountingCompany";
     $phoneNumber = "999-888-777";
     $email = "wolffaccounting@example.com";
+
+    $date_day = date("l");
+    $date_hour = date("H");
+    $date_word = null;
+    if($date_hour<6 || $date_hour>=21) {
+        $date_word = "night";
+    } elseif($date_hour>=6 && $date_hour<12) {
+        $date_word = "morning";
+    } elseif($date_hour>=12 && $date_hour<17) {
+        $date_word = "afternoons";
+    } elseif($date_hour>=17 && $date_hour<21) {
+        $date_word = "evening";
+    }
+    
 ?>
 
     <div id="welcome">
+        <h1>Welcome on this beautiful <?php echo "{$date_day} {$date_word}"; ?> to the <?php echo $companyName; ?> website.</h1>
         <h1>Welcome to the <?php echo $companyName; ?> website</h1>
         <h2><?php echo $companyName; ?>, as the name suggests, offers profesional accounting services.</h2>
     </div>
