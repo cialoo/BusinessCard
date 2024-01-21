@@ -1,20 +1,42 @@
 body {
-    background-color: whitesmoke;
+    background-color: #f0ece2;
+    margin: 0;
 }
-#welcome {
+.container {
     font-family: sans-serif;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-
-#priceList {
-    font-family: sans-serif;
+.welcome {
+    color: #f0ece2;
+    background-color: #596e79;
+    padding: 20px;
+    margin: 0;
 }
-
-table, th {
-    border: 1px solid black;
+.secondLine {
+    display: flex;
 }
-
-#contact {
-    font-family: sans-serif;
+.priceList {
+    background-color: #c7b198;
+    padding: 20px;
+    width: 50%;
+}
+.priceList table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.priceList th, .priceList td {
+    border: 2px solid #000;
+    padding: 8px;
     text-align: center;
+}
+.contact {
+    background-color: #dfd3c3;
+    padding: 20px;
+    width: 50%;
+}
+.contact img {
+    width: 25px;
+    height: 25px;
 }
