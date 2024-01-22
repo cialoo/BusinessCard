@@ -1,6 +1,7 @@
 body {
     background-color: #f0ece2;
     margin: 0;
+    overflow: hidden;
 }
 .container {
     font-family: sans-serif;
@@ -39,4 +40,7 @@ body {
 .contact img {
     width: 25px;
     height: 25px;
+}
+.photo {
+    padding: 35px;
 }

@@ -79,6 +79,9 @@
                 <img src="images/mail.png">
             </div>
         </div>
+        <div class="photo">
+            <img src="images/photo.jpg" alt="Background Image">
+        </div>
     </div>
 </body>
 </html>
